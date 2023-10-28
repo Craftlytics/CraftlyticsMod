@@ -1,2 +1,2 @@
-# CraftlyticsMod
-The mod for Craftlytics.
+# Craftlytics
+An analytics platform for Minecraft mods.
