@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "craftlytics",
+  "version": "${version}",
+  "name": "Craftlytics",
+  "description": "An analytics platform for Minecraft mods.",
+  "authors": [
+    "TheClashFruit"
+  ],
+  "contact": {
+    "website": "https://craftlytics.theclashfruit.me",
+    "repo": "https://github.com/Craftlytics/CraftlyticsMod"
+  },
+  "license": "MIT",
+  "icon": "assets/craftlytics/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.theclashfruit.craftlytics.client.CraftlyticsClient"
+    ],
+    "main": [
+      "me.theclashfruit.craftlytics.Craftlytics"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "dependencies": {
+    "yet_another_config_lib_v3": "*"
+  }
+}
