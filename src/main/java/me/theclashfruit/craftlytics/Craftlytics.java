@@ -2,6 +2,7 @@ package me.theclashfruit.craftlytics;
 
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.JanksonConfigSerializer;
+import me.theclashfruit.craftlytics.api.AnalyticsClient;
 import me.theclashfruit.craftlytics.config.CraftlyticsConfig;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -13,6 +14,10 @@ public class Craftlytics implements ModInitializer {
     public static final String MOD_ID = "craftlytics";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
+    AnalyticsClient analyticsClient = new AnalyticsClient(
+        "byV9mqcdE7YFSBTvrcL2JFkIeT3Q0zpOQgrsXu6bUFDZIIAIO1xmQSSwvMlAfLAK",
+        MOD_ID
+    );
     public static final String[] randomMessage = {
         "waht?!", // me
         "say gex", // mya in crss server
@@ -26,5 +31,8 @@ public class Craftlytics implements ModInitializer {
 
         // Register Config
         AutoConfig.register(CraftlyticsConfig.class, JanksonConfigSerializer::new);
+
+        // :o
+        analyticsClient.initialize();
     }
 }

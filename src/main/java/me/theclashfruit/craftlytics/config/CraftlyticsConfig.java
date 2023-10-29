@@ -5,7 +5,7 @@ import me.shedaniel.autoconfig.annotation.Config;
 
 @Config(name = "craftlytics")
 public class CraftlyticsConfig implements ConfigData {
-    boolean optOut = false;
-    String excludedMods = "examplemodid,anothermod";
-    String apiUrl = "https://craftlytics.theclashfruit.me/api";
+    public boolean optOut = false;
+    public String excludedMods = "examplemodid,anothermod";
+    public String apiUrl = "https://craftlytics.theclashfruit.me/api";
 }
