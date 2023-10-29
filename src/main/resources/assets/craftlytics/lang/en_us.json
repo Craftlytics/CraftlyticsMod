@@ -1,0 +1,7 @@
+{
+  "text.autoconfig.craftlytics.title": "Craftlytics Config",
+
+  "text.autoconfig.craftlytics.option.optOut": "Opt-Out",
+  "text.autoconfig.craftlytics.option.excludedMods": "Excluded Mods",
+  "text.autoconfig.craftlytics.option.apiUrl": "Analytics Api URL"
+}

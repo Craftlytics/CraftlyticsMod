@@ -37,6 +37,7 @@ dependencies {
     }
 
     modLocalRuntime "maven.modrinth:modmenu:${project.modmenu_version}"
+    modLocalRuntime "maven.modrinth:icon-items:${project.icon_items_version}"
 }
 
 processResources {
@@ -106,7 +107,7 @@ publishing {
 
             credentials(PasswordCredentials)
             authentication {
-                basic(BasicAuthentication)
+                BasicAuthentication
             }
         }
 
@@ -116,7 +117,7 @@ publishing {
 
             credentials(PasswordCredentials)
             authentication {
-                basic(BasicAuthentication)
+                BasicAuthentication
             }
         }
     }
