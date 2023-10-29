@@ -5,8 +5,6 @@ import me.theclashfruit.craftlytics.config.CraftlyticsConfig;
 
 import java.util.Arrays;
 
-import static me.theclashfruit.craftlytics.Craftlytics.LOGGER;
-
 public class AnalyticsClient {
     private String apiKey;
     private String modId;

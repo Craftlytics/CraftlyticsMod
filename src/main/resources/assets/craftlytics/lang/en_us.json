@@ -2,6 +2,14 @@
   "text.autoconfig.craftlytics.title": "Craftlytics Config",
 
   "text.autoconfig.craftlytics.option.optOut": "Opt-Out",
+  "text.autoconfig.craftlytics.option.showWarning": "Show Warning",
   "text.autoconfig.craftlytics.option.excludedMods": "Excluded Mods",
-  "text.autoconfig.craftlytics.option.apiUrl": "Analytics Api URL"
+  "text.autoconfig.craftlytics.option.apiUrl": "Analytics Api URL",
+
+  "text.autoconfig.craftlytics.option.optOut.@Tooltip": "Opt-Out of all analytics.",
+  "text.autoconfig.craftlytics.option.showWarning.@Tooltip": "Show a yellow warning text on the main menu and pause menu if one or more mods have Craftlytics enabled.",
+  "text.autoconfig.craftlytics.option.excludedMods.@Tooltip": "Exclude mods from analytics. A comma separated list of mod ids.",
+  "text.autoconfig.craftlytics.option.apiUrl.@Tooltip": "The API to send analytics to.",
+  
+  "text.craftlytics.warning": "§eCraftlytics is enabled for one or more mods!"
 }

@@ -26,6 +26,9 @@
       "me.theclashfruit.craftlytics.config.ModMenuIntegration"
     ]
   },
+  "mixins": [
+    "craftlytics.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
