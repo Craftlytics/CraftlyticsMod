@@ -8,8 +8,9 @@
     "TheClashFruit"
   ],
   "contact": {
-    "website": "https://craftlytics.theclashfruit.me",
-    "repo": "https://github.com/Craftlytics/CraftlyticsMod"
+    "homepage": "https://craftlytics.theclashfruit.me",
+    "sources": "https://github.com/Craftlytics/CraftlyticsMod",
+    "issues": "https://github.com/Craftlytics/CraftlyticsMod/issues"
   },
   "license": "MIT",
   "icon": "assets/craftlytics/icon.png",
@@ -20,14 +21,22 @@
     ],
     "main": [
       "me.theclashfruit.craftlytics.Craftlytics"
+    ],
+    "modmenu": [
+      "me.theclashfruit.craftlytics.config.ModMenuIntegration"
     ]
   },
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": "${minecraft_version}",
+    "cloth-config2": ">=${cloth_config_version}"
   },
-  "dependencies": {
-    "yet_another_config_lib_v3": "*"
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/CWEApqJ6rc"
+      }
+    }
   }
 }
